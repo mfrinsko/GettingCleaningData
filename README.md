@@ -45,3 +45,12 @@ install.packages("data.table")
 
 The script will load the packages for you in the proper order.
 
+The script starts by creating a "Project" folder in your working directory if one does not already exists, and then sets your working directory to be the Project folder.  The dataset is then downloaded from the Coursera site to this folder, and unzipped.
+
+The script then reads the 3 relevant files for the test data (subject_test.txt, y_test.txt, and X_test.txt) into 3 data frames (test_sub, test_act, and test_m respectively), and then converts them to data tables.  Then the column name on the test_act table is updated to be more descriptive.  The test_sub and test_act tables are combined into a new table - ts_act_sub.  At this point, the column name for the subject data is updated to be descriptive.  Then a new column is added to ts_act_sub to store the the descriptive values for each of the six activity values.  While not required by the project, I decided to add a column to flag these records as "Test" subjects, in case there was ever a need to compare the results of test subjects with train subjects.  Finally, the columns in ts_act_sub were reordered to put the subject and activity columns next to each other.
+
+
+
+
+
+
