@@ -38,10 +38,10 @@ This file contains all of the commands that are needed to download the data set 
 
 The following commands will install the packages if you do not have them:
 
-install.packages("downloader")
-install.packages("plyr")
-install.packages("dplyr")
-install.packages("data.table")
+  install.packages("downloader")
+  install.packages("plyr")
+  install.packages("dplyr")
+  install.packages("data.table")
 
 The script will load the packages for you in the proper order.
 
