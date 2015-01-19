@@ -15,14 +15,16 @@ The required output for this project is as follows:
 When unzipped, the original data set consists of a main folder (UCI HAR Dataset) and two sub-folders (test and train).  The main folder contains information about each of the files along with reference data files.  The reference data files are:
 
 * activity_labels.txt - shows the descriptive labels for the numeric values that represent the activities in the other data set.
+
 * features.txt - lists each of the measurements that are captured in the data set, along with a numeric sequence ID for each value.  This becomes the basis for the measurement column names.
+
 * features_info.txt - describes the features that are included in the data set, and how they were gathered.
 
 The test and train folders contain the data sets for the test group and train group of subjects, respectively.  They both also have a sub-folder that contains files that are not relevant for this project.  The relevant files in each folder are:
 
-+subject_test.txt/subject_train.txt
-+y_test.txt/y_train.txt
-+X_test.txt/X_train.txt
+* subject_test.txt/subject_train.txt
+* y_test.txt/y_train.txt
+* X_test.txt/X_train.txt
 
 ##Notes on the run_analysis.R file
 
