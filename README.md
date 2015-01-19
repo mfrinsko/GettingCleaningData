@@ -12,7 +12,7 @@ The required output for this project is as follows:
 3. A codebook that details the data sets, and transformations that occurred to manipulate the data to its final tidy data format.  **This is the CodeBook.md file.**
 
 ##Notes on the original data set
-When unzipped, the original data set consists of a main folder (UCI HAR Dataset) and two sub-folders (test and train).  The main folder contains information about each of the files along with reference data files.  The reference data files are:
+When unzipped, the original data set consists of a main folder (UCI HAR Dataset) and two sub-folders (test and train).  The main folder contains information about each of the files in the README.txt, along with other reference data files.  While the original README file explains these in more detail, the relevant files are described briefly here.  The reference data files are:
 
 * activity_labels.txt - shows the descriptive labels for the numeric values that represent the activities in the other data set.
 
@@ -22,12 +22,26 @@ When unzipped, the original data set consists of a main folder (UCI HAR Dataset)
 
 The test and train folders contain the data sets for the test group and train group of subjects, respectively.  They both also have a sub-folder that contains files that are not relevant for this project.  The relevant files in each folder are:
 
-* subject_test.txt/subject_train.txt
-* y_test.txt/y_train.txt
-* X_test.txt/X_train.txt
+* subject_test.txt/subject_train.txt - these files contain a reference to the subject (person who performed the activities) associated to each of the measurements.  The range is from 1 to 30.
+
+* y_test.txt/y_train.txt - these files contain the a reference to the activity associated to each of the measurements.  The numeric values range from 1 to 6, and the activity_labels.txt file provides the descriptive values for each of these numbers.
+
+* X_test.txt/X_train.txt - these files contain the set of observations of measurements.  
 
 ##Notes on the run_analysis.R file
+This file contains all of the commands that are needed to download the data set and manipulate it into the end result.  In order to use this file, the following R packages need to be installed:
 
+1. downloader
+2. plyr
+3. dplyr
+4. data.table
 
-Note the format of the output file that has been uploaded to Coursera - I chose to use pipe (|) as the separator value to make it easier to read in a text editor.  The command to read this back into R is as follows...
+The following commands will install the packages if you do not have them:
+
+install.packages("downloader")
+install.packages("plyr")
+install.packages("dplyr")
+install.packages("data.table")
+
+The script will load the packages for you in the proper order.
 
