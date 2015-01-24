@@ -9,8 +9,9 @@ Two tidy data sets are created through this project.  A brief overview of each o
 * all_means - This data table stores a summarized view of the all_data table, taking the average of each measurement variable for each unique combination of subject and activity.  The measurement variables in this table are also unitless.  There are 88 columns in this data set and 180 rows.
 
 ###Variable Descriptions for all_data Data Set
+*Please note that variables 4-89 have the numeric data type.*
 
-1. SubjectID: Character field with values from 1-30 representing each individual who participated in the study.
+1. SubjectID: Integer field with values from 1-30 representing each individual who participated in the study.
 
 2. SubjectType:	Character field with values of Train or Test. Indicates the original location of the subject as being in the train or test data sets, respectively. While not required for this project, retaining the origin of the subject could be beneficial for future analysis.
 
@@ -22,8 +23,6 @@ Two tidy data sets are created through this project.  A brief overview of each o
   - 4 = Sitting
   - 5 = Standing
   - 6 = Laying
-
-*The rest of the variables in the data set are numeric values.*
 
 4. TimeBodyAccelerometerMeanX:	Average body acceleration time from the accelerometer along the X axis
 
@@ -198,8 +197,9 @@ Two tidy data sets are created through this project.  A brief overview of each o
 89. FrequencyBodyGyroscopeJerkMagnitudeStandardDeviation:	Standard deviation of magnitude of body gyroscope Jerk time
 
 ###Variable Descriptions for all_means Data Set
+*Please note that variables 3-88 have the numeric data type.*
 
-1.	SubjectID:	Character field with values from 1-30 representing each individual who participated in the study.
+1.	SubjectID:	Integer field from 1-30 representing each individual who participated in the study.
 
 2.	ActivityDescription:	Character field with descriptive values of the activities performed by the subjects.  In the original data set, each activity was represented by a number.  This field replaces the numbers with readable text, and the translation is as follows: 
 
