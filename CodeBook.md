@@ -23,6 +23,8 @@ Two tidy data sets are created through this project.  A brief overview of each o
   - 5 = Standing
   - 6 = Laying
 
+*The rest of the variables in the data set are numeric values.*
+
 4. TimeBodyAccelerometerMeanX:	Average body acceleration time from the accelerometer along the X axis
 
 5. TimeBodyAccelerometerMeanY:	Average body acceleration time from the accelerometer along the Y axis 
