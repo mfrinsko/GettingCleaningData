@@ -1,4 +1,4 @@
-***Getting and Cleaning Data Project Codebook - January 2015
+Getting and Cleaning Data Project Codebook - January 2015
 
 This document explains the variables in the data sets produced in support of the Getting and Cleaning Data project, as well as the transformations that occurred to provide the data in its final formats.
 
