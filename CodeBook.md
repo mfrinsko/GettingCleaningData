@@ -1,4 +1,4 @@
-Getting and Cleaning Data Project Codebook - January 2015
+##Getting and Cleaning Data Project Codebook - January 2015
 
 This document explains the variables in the data sets produced in support of the Getting and Cleaning Data project, as well as the transformations that occurred to provide the data in its final formats.
 
@@ -8,7 +8,7 @@ Two tidy data sets are created through this project.  A brief overview of each o
 
 * all_means - This data table stores a summarized view of the all_data table, taking the average of each measurement variable for each unique combination of subject and activity.  The measurement variables in this table are also unitless.  There are 88 columns in this data set and 180 rows.
 
-**Variable Descriptions for all_data
+###Variable Descriptions for all_data Data Set
 
 1. SubjectID: Character field with values from 1-30 representing each individual who participated in the study.
 
@@ -195,7 +195,7 @@ Two tidy data sets are created through this project.  A brief overview of each o
 
 89. FrequencyBodyGyroscopeJerkMagnitudeStandardDeviation:	Standard deviation of magnitude of body gyroscope Jerk time
 
-**Variable Descriptions for all_means
+###Variable Descriptions for all_means Data Set
 
 1.	SubjectID:	Character field with values from 1-30 representing each individual who participated in the study.
 
