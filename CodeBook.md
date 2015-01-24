@@ -1,4 +1,4 @@
-***Getting and Cleaning Data Project Codebook - January 2015
+Getting and Cleaning Data Project Codebook - January 2015
 
 This document explains the variables in the data sets produced in support of the Getting and Cleaning Data project, as well as the transformations that occurred to provide the data in its final formats.
 
@@ -16,12 +16,12 @@ Two tidy data sets are created through this project.  A brief overview of each o
 
 3. ActivityDescription:	Character field with descriptive values of the activities performed by the subjects. In the original data set, each activity was represented by a number. This field replaces the numbers with readable text, and the translation is as follows: 
 
-- 1 = Walking
-- 2 = Walking Upstairs
-- 3 = Walking Downstairs
-- 4 = Sitting
-- 5 = Standing
-- 6 = Laying
+  - 1 = Walking
+  - 2 = Walking Upstairs
+  - 3 = Walking Downstairs
+  - 4 = Sitting
+  - 5 = Standing
+  - 6 = Laying
 
 4. TimeBodyAccelerometerMeanX:	Average body acceleration time from the accelerometer along the X axis
 
