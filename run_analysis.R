@@ -10,7 +10,6 @@ setwd("~/Project")
 
 ##Download the files
 ##Install the downloader package and additional packages that get used throughout the script
-install.packages("downloader")
 library("downloader")
 library("plyr")
 library("dplyr")
