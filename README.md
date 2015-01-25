@@ -61,6 +61,18 @@ Finally, the data in the all_means table is written out to a text file so that i
 
 x <- read.table("./tidy_data.txt", header = TRUE, sep = "|")
 
+####Descriptive Column Names
+In order to come up with the more descriptive column names, I first removed all of the punctuation characters from the existing names - these included commas, dashes, and parentheses.  Then I transformed specific abbreviations as follows:
+
+* t = Time
+* f = Frequency
+* Acc = Accelerometer
+* Gyro = Gyroscope
+* Mag = Magnitude
+* std = StandardDeviation
+* Added capitalization for mean, angle, and gravity text values
+* Removed duplicate values in a name (BodyBody became just Body)
+
 
 
 
